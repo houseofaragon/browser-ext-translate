@@ -1,7 +1,7 @@
 
 # Browser extension to translate text
 
-This chrome browser extension runs the huggingface Translation pipeline on given text from the oage,
+This chrome browser extension runs the huggingface Translation pipeline on given text from the page,
 
 ## Getting Started
 1. Install the necessary dependencies:
