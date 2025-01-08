@@ -1,6 +1,7 @@
 /*
     content.js - the content script which is run in the context of web pages, and has access to the DOM and other web APIs.
-*/
+    // https://dev.to/leo_song/exploring-the-canvas-series-combined-with-transformersjs-to-achieve-intelligent-image-processing-2aol
+    */
 (async () => {
     // Set the translated title
     const h1 = document.querySelector('h1'); 

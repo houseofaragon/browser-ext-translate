@@ -1,8 +1,8 @@
 
 # Browser extension to translate text
 
-This chrome browser extension runs the huggingface Translation pipeline on given text from the page,
-
+This chrome browser extension runs the huggingface Translation pipeline on given text from the page. This is built on top of [huggingface's transformer.js](https://github.com/huggingface/transformers.js/tree/main/examples/extension). Thank you for a building a beautiful api.
+ 
 ## Getting Started
 1. Install the necessary dependencies:
     ```bash
@@ -28,3 +28,5 @@ All source code can be found in the `./src/` directory:
 - `content.js` ([content script](https://developer.chrome.com/docs/extensions/mv3/content_scripts/)) - contains the code which is injected into every page the user visits. You can use the `sendMessage` api to make requests to the background script. Similarly, you will need to reload the extension after editing this file for changes to be visible in the extension.
 
 - `popup.html`, `popup.css`, `popup.js` ([toolbar action](https://developer.chrome.com/docs/extensions/reference/action/)) - contains the code for the popup which is visible to the user when they click the extension's icon from the extensions bar. For development, we recommend opening the `popup.html` file in its own tab by visiting `chrome-extension://<ext_id>/popup.html` (remember to replace `<ext_id>` with the extension's ID). You will need to refresh the page while you develop to see the changes you make.
+
+
