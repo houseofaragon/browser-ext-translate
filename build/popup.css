@@ -48,3 +48,24 @@ body {
     font-family: 'Roboto Mono', monospace;
     height: 100px;
 }
+
+.highlighted {
+    background-color: yellow;
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    display: none;
+}
+
+.highlighted:hover .tooltip {
+    display: block;
+}
